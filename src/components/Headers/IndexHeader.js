@@ -2,7 +2,8 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import {Button, Container} from "reactstrap";
+
 // core components
 
 function IndexHeader() {
@@ -12,8 +13,7 @@ function IndexHeader() {
     if (window.innerWidth > 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
-        pageHeader.current.style.transform =
-          "translate3d(0," + windowScrollTop + "px,0)";
+        pageHeader.current.style.transform = "translate3d(0," + windowScrollTop + "px,0)";
       };
       window.addEventListener("scroll", updateScroll);
       return function cleanup() {
@@ -22,52 +22,36 @@ function IndexHeader() {
     }
   });
 
-  return (
-    <>
-      <div className="page-header clear-filter" filter-color="blue">
-        <div
+  return (<>
+    <div className="page-header clear-filter">
+      <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/header.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/jan-canty-KcQuXaHCSPE-unsplash.jpg").default + ")",
           }}
           ref={pageHeader}
-        ></div>
-        <Container>
-          <div className="content-center brand">
-            <img
-              alt="..."
-              className="n-logo"
-              src={require("assets/img/now-logo.png")}
-            ></img>
-            <h1 className="h1-seo">Now UI Kit.</h1>
-            <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
-          </div>
-          <h6 className="category category-absolute">
-            Designed by{" "}
-            <a href="http://invisionapp.com/?ref=creativetim" target="_blank">
-              <img
-                alt="..."
-                className="invision-logo"
-                src={require("assets/img/invision-white-slim.png")}
-              ></img>
+      />
+      <Container>
+        <div className="content-center brand">
+          <h1 className="h1-seo">Suncrest Landscaping</h1>
+          f    <h3>
+          <p className="h5">Exceeding expectations for 20+ years</p>
+          <hr
+              style={{
+                background: 'white', color: 'white', borderColor: 'white', height: '0.5px',
+              }}/>
+          <p className="h5">4.8 stars on
+            <a href="https://www.google.com/maps/place/Suncrest+Landscaping+%26+Design,+Inc./@46.336059,-122.5774749,9.18z/data=!4m5!3m4!1s0x0:0x7d779890040463c5!8m2!3d46.1134669!4d-122.367359">
+              <button className="btn-link btn-neutral">
+                Google
+              </button>
             </a>
-            . Coded by{" "}
-            <a
-              href="https://www.creative-tim.com?ref=nukr-index-header"
-              target="_blank"
-            >
-              <img
-                alt="..."
-                className="creative-tim-logo"
-                src={require("assets/img/creative-tim-white-slim2.png")}
-              ></img>
-            </a>
-            .
-          </h6>
-        </Container>
-      </div>
-    </>
-  );
+          </p>
+        </h3>
+        </div>
+      </Container>
+    </div>
+  </>);
 }
 
 export default IndexHeader;
