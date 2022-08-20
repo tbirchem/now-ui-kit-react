@@ -43,7 +43,7 @@ function IndexHeader() {
           <p className="h5">4.8 stars on
             <a href="https://www.google.com/maps/place/Suncrest+Landscaping+%26+Design,+Inc./@46.336059,-122.5774749,9.18z/data=!4m5!3m4!1s0x0:0x7d779890040463c5!8m2!3d46.1134669!4d-122.367359">
               <button className="btn-link btn-neutral">
-                Google
+                Google!
               </button>
             </a>
           </p>
