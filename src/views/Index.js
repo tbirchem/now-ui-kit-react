@@ -44,13 +44,13 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <BasicElements />
+          <Carousel />
           <Navbars />
           <Tabs />
           <Pagination />
           <Notifications />
           <Typography />
           <Javascript />
-          <Carousel />
           <NucleoIcons />
           <CompleteExamples />
           <SignUp />

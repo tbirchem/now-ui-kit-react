@@ -58,8 +58,13 @@ function CarouselSection() {
       <div className="section" id="carousel">
         <Container>
           <div className="title">
-            <h4>Carousel</h4>
+            <h1 className="title text-center">Our Work</h1>
+            <hr
+                style={{
+                  background: 'black', color: 'black', borderColor: 'black', height: '0.1px'
+                }}/>
           </div>
+          <br/>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
               <Carousel
