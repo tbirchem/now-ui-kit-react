@@ -1,158 +1,120 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Form, Input, TextArea} from 'semantic-ui-react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
+
+
 // reactstrap components
 import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row
+  Card, Button, CardHeader, CardFooter, CardTitle, Container, Row,
 } from "reactstrap";
+
+const styleLink = document.createElement("link");
+styleLink.rel = "stylesheet";
+styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css";
+document.head.appendChild(styleLink);
 
 // core components
 
-function SignUp() {
-  const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
-  const [emailFocus, setEmailFocus] = React.useState(false);
-  return (
-    <>
-      <div
+const SERVICE_ID = "service_bqot0b8";
+const TEMPLATE_ID = "template_kddcgzh";
+const USER_ID = "Q2iqInByuTYbBsj5U";
+
+const SignUp = () => {
+
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+        .then((result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: 'success', title: 'Message Sent Successfully'
+          })
+        }, (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'error', title: 'Ooops, something went wrong', text: error.text,
+          })
+        });
+    e.target.reset()
+  };
+
+  return (<>
+    {/*<br/>*/}
+    {/*<h2 className="h3 text-center" id="getaquote"> - Get Connected - </h2>*/}
+    <div
         className="section section-signup"
         style={{
-          backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/bg11.jpg").default + ")",
           backgroundSize: "cover",
           backgroundPosition: "top center",
-          minHeight: "700px"
+          minHeight: "700px",
         }}
-      >
-        <Container>
-          <Row>
-            <Card className="card-signup" data-background-color="blue">
-              <Form action="" className="form" method="">
-                <CardHeader className="text-center">
-                  <CardTitle className="title-up" tag="h3">
-                    Sign Up
-                  </CardTitle>
-                  <div className="social-line">
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="facebook"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook-square"></i>
-                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="twitter"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                      size="lg"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="google"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-google-plus"></i>
-                    </Button>
-                  </div>
-                </CardHeader>
-                <CardBody>
-                  <InputGroup
-                    className={
-                      "no-border" + (firstFocus ? " input-group-focus" : "")
-                    }
-                  >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons users_circle-08"></i>
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input
-                      placeholder="First Name..."
-                      type="text"
-                      onFocus={() => setFirstFocus(true)}
-                      onBlur={() => setFirstFocus(false)}
-                    ></Input>
-                  </InputGroup>
-                  <InputGroup
-                    className={
-                      "no-border" + (lastFocus ? " input-group-focus" : "")
-                    }
-                  >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons text_caps-small"></i>
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input
-                      placeholder="Last Name..."
-                      type="text"
-                      onFocus={() => setLastFocus(true)}
-                      onBlur={() => setLastFocus(false)}
-                    ></Input>
-                  </InputGroup>
-                  <InputGroup
-                    className={
-                      "no-border" + (emailFocus ? " input-group-focus" : "")
-                    }
-                  >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons ui-1_email-85"></i>
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input
-                      placeholder="Email..."
-                      type="text"
-                      onFocus={() => setEmailFocus(true)}
-                      onBlur={() => setEmailFocus(false)}
-                    ></Input>
-                  </InputGroup>
-                </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    className="btn-neutral btn-round"
-                    color="info"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    size="lg"
-                  >
-                    Get Started
-                  </Button>
-                </CardFooter>
-              </Form>
-            </Card>
-          </Row>
-          <div className="col text-center">
-            <Button
-              className="btn-round btn-white"
-              color="default"
-              to="/login-page"
-              outline
-              size="lg"
-              tag={Link}
-            >
-              View Login Page
-            </Button>
-          </div>
-        </Container>
-      </div>
-    </>
-  );
+    >
+      <Container>
+        <Row>
+          <Card className="card-signup" data-background-color="green">
+            <Form action="" className="form" method="" onSubmit={handleOnSubmit}>
+              <CardHeader className="text-center">
+                <CardTitle className="title-up" tag="h3">
+                  Get Connected!
+                </CardTitle>
+              </CardHeader>
+              <Form.Field
+                  className="text-center card-body"
+                  id='form-input-control-email'
+                  control={Input}
+                  text='Email'
+                  name='user_email'
+                  placeholder='Email…'
+                  required
+                  icon='mail'
+                  iconPosition='left'
+              />
+              <Form.Field
+                  className="text-center card-body"
+                  id='form-input-control-last-name'
+                  control={Input}
+                  name='user_name'
+                  placeholder='First, Last…'
+                  required
+                  icon='user circle'
+                  iconPosition='left'
+              />
+              <Form.Field
+                  className="text-center card-body"
+                  control={Input}
+                  name='user_location'
+                  placeholder='City, State…'
+                  required
+                  icon='location arrow'
+                  iconPosition='left'
+              />
+              <Form.Field
+                  className="text-center card-body"
+                  control={Input}
+                  name='user_budget'
+                  placeholder='Budget…'
+                  required
+                  icon='dollar sign'
+                  iconPosition='left'
+              />
+              <Form.Field
+                  className="text-center card-body"
+                  id='form-textarea-control-opinion'
+                  control={TextArea}
+                  name='user_message'
+                  placeholder='Message…'
+              />
+              <CardFooter className="text-center">
+                <Button type='submit' color="warning">Submit</Button>
+              </CardFooter>
+            </Form>
+          </Card>
+        </Row>
+      </Container>
+    </div>
+  </>);
 }
 
 export default SignUp;
