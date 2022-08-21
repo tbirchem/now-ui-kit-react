@@ -15,13 +15,13 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 import BasicElements from "./index-sections/BasicElements.js";
 // import Navbars from "./index-sections/Navbars.js";
 import Tabs from "./index-sections/Tabs.js";
-import Pagination from "./index-sections/Pagination.js";
-import Notifications from "./index-sections/Notifications.js";
-import Typography from "./index-sections/Typography.js";
-import Javascript from "./index-sections/Javascript.js";
+// import Pagination from "./index-sections/Pagination.js";
+// import Notifications from "./index-sections/Notifications.js";
+// import Typography from "./index-sections/Typography.js";
+// import Javascript from "./index-sections/Javascript.js";
 import Carousel from "./index-sections/Carousel.js";
-import NucleoIcons from "./index-sections/NucleoIcons.js";
-import CompleteExamples from "./index-sections/CompleteExamples.js";
+// import NucleoIcons from "./index-sections/NucleoIcons.js";
+// import CompleteExamples from "./index-sections/CompleteExamples.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
@@ -47,12 +47,12 @@ function Index() {
           <BasicElements />
           <Carousel />
           <Tabs />
-          <Pagination />
-          <Notifications />
-          <Typography />
-          <Javascript />
-          <NucleoIcons />
-          <CompleteExamples />
+          {/*<Pagination />*/}
+          {/*<Notifications />*/}
+          {/*<Typography />*/}
+          {/*<Javascript />*/}
+          {/*<NucleoIcons />*/}
+          {/*<CompleteExamples />*/}
           <SignUp />
           <Examples />
           <Download />

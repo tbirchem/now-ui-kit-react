@@ -22,10 +22,17 @@ function Tabs() {
   // const [pills, setPills] = React.useState("1");
   return (
     <>
-      <div className="section section-tabs">
+      <div className="section section-basic">
+        <h1 className=" title text-center"> Our Services </h1>
+        <hr
+            style={{
+              background: 'black', color: 'black', borderColor: 'black', height: '0.1px', width:'78%'
+            }}/>
+        <br/>
+        <br/>
         <Container>
           <Row>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
+            <Col className="ml-auto mr-auto" md="10" xl="12">
               <p className="category">Tabs with Icons on Card</p>
               <Card>
                 <CardHeader>
