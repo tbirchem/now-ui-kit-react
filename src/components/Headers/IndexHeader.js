@@ -27,7 +27,7 @@ function IndexHeader() {
             <div
                 className="page-header-image"
                 style={{
-                    backgroundImage: "url(" + require("assets/img/jan-canty-KcQuXaHCSPE-unsplash.jpg") + ")"
+                    backgroundImage: "url(" + require("../../../src/assets/img/bg1.jpg") + ")"
                 }}
                 ref={pageHeader}
             />
