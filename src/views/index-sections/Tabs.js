@@ -37,7 +37,7 @@ function Tabs() {
                                                 }}
                                             >
                                                 <i className="now-ui-icons objects_umbrella-13"></i>
-                                                Home
+                                                Water Features
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
