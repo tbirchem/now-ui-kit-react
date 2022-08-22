@@ -9,7 +9,7 @@ import {
 
 function Tabs() {
     const [iconPills, setIconPills] = React.useState("1");
-    // const [pills, setPills] = React.useState("1");
+
     return (<>
             <div className=" section section-basic">
                 <h1 className=" title text-center"> Our Services </h1>
@@ -23,7 +23,7 @@ function Tabs() {
                 </div>
                 <Container>
                     <Row>
-                        <Col className="ml-auto mr-auto" md="10" xl="12">
+                        <Col className="ml-auto mr-auto" md="12" xl="12">
                             <Card>
                                 <CardHeader>
                                     <Nav className="justify-content-center" role="tablist" tabs>
@@ -49,8 +49,8 @@ function Tabs() {
                                                     setIconPills("2");
                                                 }}
                                             >
-                                                <i className="now-ui-icons shopping_cart-simple"></i>
-                                                Profile
+                                                <i className="now-ui-icons ui-2_settings-90"></i>
+                                                Fire Features
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
@@ -63,7 +63,7 @@ function Tabs() {
                                                 }}
                                             >
                                                 <i className="now-ui-icons shopping_shop"></i>
-                                                Messages
+                                                Outdoor Structures & Kitchens
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
@@ -76,9 +76,74 @@ function Tabs() {
                                                 }}
                                             >
                                                 <i className="now-ui-icons ui-2_settings-90"></i>
-                                                Settings
+                                                Retaining Walls & Fencing
                                             </NavLink>
                                         </NavItem>
+                                        <NavItem>
+                                            <NavLink
+                                                className={iconPills === "5" ? "active" : ""}
+                                                href="#pablo"
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    setIconPills("5");
+                                                }}
+                                            >
+                                                <i className="now-ui-icons ui-2_settings-90"></i>
+                                                Landscape Design
+                                            </NavLink>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink
+                                                className={iconPills === "6" ? "active" : ""}
+                                                href="#pablo"
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    setIconPills("6");
+                                                }}
+                                            >
+                                                <i className="now-ui-icons ui-2_settings-90"></i>
+                                                Patio & Walkways
+                                            </NavLink>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink
+                                                className={iconPills === "7" ? "active" : ""}
+                                                href="#pablo"
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    setIconPills("7");
+                                                }}
+                                            >
+                                                <i className="now-ui-icons ui-2_settings-90"></i>
+                                                Landscape Installation
+                                            </NavLink>
+                                        </NavItem>
+                                        <NavItem>
+                                            <NavLink
+                                                className={iconPills === "8" ? "active" : ""}
+                                                href="#pablo"
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    setIconPills("8");
+                                                }}
+                                            >
+                                                <i className="now-ui-icons ui-2_settings-90"></i>
+                                                Residental
+                                            </NavLink>
+                                        </NavItem>
+                                        {/*<NavItem>*/}
+                                        {/*    <NavLink*/}
+                                        {/*        className={iconPills === "9" ? "active" : ""}*/}
+                                        {/*        href="#pablo"*/}
+                                        {/*        onClick={(e) => {*/}
+                                        {/*            e.preventDefault();*/}
+                                        {/*            setIconPills("9");*/}
+                                        {/*        }}*/}
+                                        {/*    >*/}
+                                        {/*        <i className="now-ui-icons ui-2_settings-90"></i>*/}
+                                        {/*        Residential*/}
+                                        {/*    </NavLink>*/}
+                                        {/*</NavItem>*/}
                                     </Nav>
                                 </CardHeader>
                                 <CardBody>
@@ -145,6 +210,70 @@ function Tabs() {
                                                 /></div>
                                         </TabPane>
                                         <TabPane tabId="iconPills4">
+                                            <p>
+                                                "I will be the leader of a company that ends up being
+                                                worth billions of dollars, because I got the answers. I
+                                                understand culture. I am the nucleus. I think that’s a
+                                                responsibility that I have, to push possibilities, to
+                                                show people, this is the level that things could be at."
+                                            </p>
+                                            <br/>
+                                            <br/>
+                                            <div className="hero-images-container-2">
+                                                <img
+                                                    alt="..."
+                                                    src={require("assets/img/bg11.jpg")}
+                                                /></div>
+                                        </TabPane>
+                                        <TabPane tabId="iconPills5">
+                                            <p>
+                                                "I will be the leader of a company that ends up being
+                                                worth billions of dollars, because I got the answers. I
+                                                understand culture. I am the nucleus. I think that’s a
+                                                responsibility that I have, to push possibilities, to
+                                                show people, this is the level that things could be at."
+                                            </p>
+                                            <br/>
+                                            <br/>
+                                            <div className="hero-images-container-2">
+                                                <img
+                                                    alt="..."
+                                                    src={require("assets/img/bg11.jpg")}
+                                                /></div>
+                                        </TabPane>
+                                        <TabPane tabId="iconPills6">
+                                            <p>
+                                                "I will be the leader of a company that ends up being
+                                                worth billions of dollars, because I got the answers. I
+                                                understand culture. I am the nucleus. I think that’s a
+                                                responsibility that I have, to push possibilities, to
+                                                show people, this is the level that things could be at."
+                                            </p>
+                                            <br/>
+                                            <br/>
+                                            <div className="hero-images-container-2">
+                                                <img
+                                                    alt="..."
+                                                    src={require("assets/img/bg11.jpg")}
+                                                /></div>
+                                        </TabPane>
+                                            <TabPane tabId="iconPills7">
+                                                <p>
+                                                    "I will be the leader of a company that ends up being
+                                                    worth billions of dollars, because I got the answers. I
+                                                    understand culture. I am the nucleus. I think that’s a
+                                                    responsibility that I have, to push possibilities, to
+                                                    show people, this is the level that things could be at."
+                                                </p>
+                                                <br/>
+                                                <br/>
+                                                <div className="hero-images-container-2">
+                                                    <img
+                                                        alt="..."
+                                                        src={require("assets/img/bg11.jpg")}
+                                                    /></div>
+                                        </TabPane>
+                                        <TabPane tabId="iconPills8">
                                             <p>
                                                 "I will be the leader of a company that ends up being
                                                 worth billions of dollars, because I got the answers. I

@@ -42,7 +42,7 @@ function IndexNavbar() {
           <NavbarBrand
               id="navbar-brand"
           >
-            Suncrest Landscaping & Design
+            Suncrest Landscaping
           </NavbarBrand>
           <button
               className="navbar-toggler navbar-toggler"
