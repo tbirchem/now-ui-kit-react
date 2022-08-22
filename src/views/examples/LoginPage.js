@@ -18,7 +18,6 @@ import {
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import TransparentFooter from "components/Footers/TransparentFooter.js";
 
 function LoginPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -134,7 +133,6 @@ function LoginPage() {
             </Col>
           </Container>
         </div>
-        <TransparentFooter />
       </div>
     </>
   );

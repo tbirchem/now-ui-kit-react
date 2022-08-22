@@ -128,22 +128,9 @@ function Tabs() {
                                                 }}
                                             >
                                                 <i className="now-ui-icons ui-2_settings-90"></i>
-                                                Residental
+                                                Residential
                                             </NavLink>
                                         </NavItem>
-                                        {/*<NavItem>*/}
-                                        {/*    <NavLink*/}
-                                        {/*        className={iconPills === "9" ? "active" : ""}*/}
-                                        {/*        href="#pablo"*/}
-                                        {/*        onClick={(e) => {*/}
-                                        {/*            e.preventDefault();*/}
-                                        {/*            setIconPills("9");*/}
-                                        {/*        }}*/}
-                                        {/*    >*/}
-                                        {/*        <i className="now-ui-icons ui-2_settings-90"></i>*/}
-                                        {/*        Residential*/}
-                                        {/*    </NavLink>*/}
-                                        {/*</NavItem>*/}
                                     </Nav>
                                 </CardHeader>
                                 <CardBody>
