@@ -36,8 +36,8 @@ function Tabs() {
                                                 setIconPills("1");
                                             }}
                                         >
-                                            <i className="now-ui-icons objects_umbrella-13"></i>
-                                            Water Features
+                                            <i className="now-ui-icons ui-2_settings-90"></i>
+                                            Landscape Lighting
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
@@ -131,6 +131,19 @@ function Tabs() {
                                             Residential
                                         </NavLink>
                                     </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            className={iconPills === "9" ? "active" : ""}
+                                            href="#pablo"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                setIconPills("9");
+                                            }}
+                                        >
+                                            <i className="now-ui-icons ui-2_settings-90"></i>
+                                            Water Feature
+                                        </NavLink>
+                                    </NavItem>
                                 </Nav>
                             </CardHeader>
                             <CardBody>
@@ -154,7 +167,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/lighting.jpg")}
                                             />
                                         </div>
                                     </TabPane>
@@ -174,7 +187,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/firefeatures.jpg")}
                                             /></div>
                                     </TabPane>
                                     <TabPane tabId="iconPills3">
@@ -193,7 +206,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/outdoorstructures.jpg")}
                                             /></div>
                                     </TabPane>
                                     <TabPane tabId="iconPills4">
@@ -241,7 +254,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/patioandwalkways.jpg")}
                                             /></div>
                                     </TabPane>
                                     <TabPane tabId="iconPills7">
@@ -257,7 +270,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/landscapeinstallation.jpg")}
                                             /></div>
                                     </TabPane>
                                     <TabPane tabId="iconPills8">
@@ -273,7 +286,23 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/residential.jpg")}
+                                            /></div>
+                                    </TabPane>
+                                    <TabPane tabId="iconPills9">
+                                        <p>
+                                            "I will be the leader of a company that ends up being
+                                            worth billions of dollars, because I got the answers. I
+                                            understand culture. I am the nucleus. I think that’s a
+                                            responsibility that I have, to push possibilities, to
+                                            show people, this is the level that things could be at."
+                                        </p>
+                                        <br/>
+                                        <br/>
+                                        <div className="hero-images-container-2">
+                                            <img
+                                                alt="..."
+                                                src={require("assets/img/waterfeatures.jpg")}
                                             /></div>
                                     </TabPane>
                                 </TabContent>
