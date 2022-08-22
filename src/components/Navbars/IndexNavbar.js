@@ -34,7 +34,7 @@ function IndexNavbar() {
     />) : null}
     <Navbar className={"fixed-top " + navbarColor} expand="lg" color="success">
       <Container>
-        <div className="navbar-translate h5">
+        <div className="navbar-translate h5 font-italic">
           <NavbarBrand
               id="navbar-brand"
               href="#pablo"

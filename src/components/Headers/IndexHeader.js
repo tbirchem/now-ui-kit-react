@@ -52,7 +52,7 @@ function IndexHeader() {
                             document
                                 .getElementById("getaquote")
                                 .scrollIntoView();
-                        }}><h3 className="text-info">GET A FREE QUOTE TODAY!</h3></a>
+                        }}><h3 className="text-danger">GET A FREE QUOTE TODAY!</h3></a>
                 </div>
             </Container>
         </div>
