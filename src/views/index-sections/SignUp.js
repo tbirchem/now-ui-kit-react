@@ -104,7 +104,7 @@ const SignUp = () => {
                                 placeholder='Message…'
                             />
                             <CardFooter className="text-center">
-                                <Button type='submit' color="warning">Submit</Button>
+                                <Button className="btn-round btn-lg" type='submit' color="warning">SUBMIT</Button>
                             </CardFooter>
                         </Form>
                     </Card>

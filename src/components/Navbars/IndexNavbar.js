@@ -4,11 +4,7 @@ import React from "react";
 
 // reactstrap components
 import {
-  // Button,
-  Collapse, // DropdownToggle,
-  // DropdownMenu,
-  // DropdownItem,
-  // UncontrolledDropdown,
+  Collapse,
   NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, UncontrolledTooltip,
 } from "reactstrap";
 

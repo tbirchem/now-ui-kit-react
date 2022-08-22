@@ -22,6 +22,8 @@ function Footer() {
       <div className="copyright" id="copyright">
         CONTACT US: TAYLOR.BIRCHEM@ICLOUD.COM
       </div>
+      <br/>
+      <br/>
     </Container>
   </footer>);
 }
