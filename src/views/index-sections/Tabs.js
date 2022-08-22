@@ -209,7 +209,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/Retainingwallsandfencing.jpg")}
                                             /></div>
                                     </TabPane>
                                     <TabPane tabId="iconPills5">
@@ -225,7 +225,7 @@ function Tabs() {
                                         <div className="hero-images-container-2">
                                             <img
                                                 alt="..."
-                                                src={require("assets/img/bg11.jpg")}
+                                                src={require("assets/img/landscapeanddesign.jpg")}
                                             /></div>
                                     </TabPane>
                                     <TabPane tabId="iconPills6">
