@@ -27,23 +27,25 @@ function IndexHeader() {
             <div
                 className="page-header-image"
                 style={{
-                    backgroundImage: "url(" + require("../../../src/assets/img/bg1.jpg") + ")"
+                    backgroundImage: "url(" + require("../../../src/assets/img/jan-canty-KcQuXaHCSPE-unsplash.jpg") + ")"
                 }}
                 ref={pageHeader}
             />
             <Container>
                 <div className="content-center brand">
-                    <img
-                        alt="..."
-                        className="n-logo"
-                        src={require("assets/img/sunset.png")}
-                    />
+                    {/*<img*/}
+                    {/*    alt="..."*/}
+                    {/*    className="n-logo"*/}
+                    {/*    src={require("assets/img/sunset.png")}*/}
+                    {/*/>*/}
                     <h1>Suncrest Landscaping</h1>
+                    <br/>
+                    <h3>Exceeding Expectations for 20+ years</h3>
                     <hr
                         style={{
                             background: 'white', color: 'white', borderColor: 'white', height: '0.5px',
                         }}/>
-                    <h3>Exceeding Expectations for 20+ years</h3>
+                    <h3>4.8 Stars on Google</h3>
                 </div>
             </Container>
         </div>
