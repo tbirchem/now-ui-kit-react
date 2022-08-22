@@ -37,6 +37,13 @@ function IndexNavbar() {
         <div className="navbar-translate h5">
           <NavbarBrand
               id="navbar-brand"
+              href="#pablo"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                    .getElementById("header")
+                    .scrollIntoView();
+              }}
           >
             Suncrest Landscaping
           </NavbarBrand>
@@ -78,7 +85,7 @@ function IndexNavbar() {
                   onClick={(e) => {
                     e.preventDefault();
                     document
-                        .getElementById("menu-dropdown")
+                        .getElementById("services")
                         .scrollIntoView();
                   }}>
                 <p>Services</p>
@@ -110,19 +117,6 @@ function IndexNavbar() {
                 <p>Get Connected</p>
               </NavLink>
             </NavItem>
-            {/*<NavItem className="h5">*/}
-            {/*  <NavLink*/}
-            {/*    href="https://twitter.com/fenwayfan24"*/}
-            {/*    target="_blank"*/}
-            {/*    id="twitter-tooltip"*/}
-            {/*  >*/}
-            {/*    <i className="fab fa-twitter"></i>*/}
-            {/*    <p className="d-lg-none d-xl-none">Twitter</p>*/}
-            {/*  </NavLink>*/}
-            {/*  <UncontrolledTooltip target="#twitter-tooltip">*/}
-            {/*    Follow us on Twitter*/}
-            {/*  </UncontrolledTooltip>*/}
-            {/*</NavItem>*/}
             <NavItem>
               <NavLink
                   href="https://www.facebook.com/profile.php?id=100057352882324"

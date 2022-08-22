@@ -11,7 +11,7 @@ function Tabs() {
     const [iconPills, setIconPills] = React.useState("1");
 
     return (<>
-            <div className=" section section-basic">
+            <div className=" section section-basic" id="services">
                 <h1 className=" title text-center"> Our Services </h1>
                 <div className="demo">
                 <hr

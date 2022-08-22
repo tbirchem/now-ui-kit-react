@@ -50,7 +50,7 @@ const SignUp = () => {
         >
             <Container>
                 <Row>
-                    <Card className="card-signup" data-background-color="green">
+                    <Card className="card-signup" data-background-color="green" id="getaquote">
                         <Form action="" className="form" method="" onSubmit={handleOnSubmit}>
                             <CardHeader className="text-center">
                                 <CardTitle className="title-up" tag="h3">

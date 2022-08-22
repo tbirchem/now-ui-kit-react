@@ -23,7 +23,7 @@ function IndexHeader() {
     });
 
     return (<>
-        <div className="page-header clear-filter" filter-color="blue">
+        <div className="page-header clear-filter" filter-color="blue" id="header">
             <div
                 className="page-header-image"
                 style={{
@@ -45,7 +45,14 @@ function IndexHeader() {
                         style={{
                             background: 'white', color: 'white', borderColor: 'white', height: '0.5px',
                         }}/>
-                    <h3>GET A FREE QUOTE TODAY!</h3>
+                    <a
+                        href="#pablo"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            document
+                                .getElementById("getaquote")
+                                .scrollIntoView();
+                        }}><h3 className="text-info">GET A FREE QUOTE TODAY!</h3></a>
                 </div>
             </Container>
         </div>
