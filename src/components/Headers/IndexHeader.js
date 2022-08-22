@@ -40,12 +40,12 @@ function IndexHeader() {
                     {/*/>*/}
                     <h1>Suncrest Landscaping</h1>
                     <br/>
-                    <h3>Exceeding Expectations for 20+ years</h3>
+                    <h3>Exceeding Expectations for 20+ years - 4.8 Stars on Google </h3>
                     <hr
                         style={{
                             background: 'white', color: 'white', borderColor: 'white', height: '0.5px',
                         }}/>
-                    <h3>4.8 Stars on Google</h3>
+                    <h3>GET A FREE QUOTE TODAY!</h3>
                 </div>
             </Container>
         </div>
