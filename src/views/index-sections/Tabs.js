@@ -79,19 +79,19 @@ function Tabs() {
                                             Retaining Walls & Fencing
                                         </NavLink>
                                     </NavItem>
-                                    <NavItem>
-                                        <NavLink
-                                            className={iconPills === "5" ? "active" : ""}
-                                            href="#pablo"
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                setIconPills("5");
-                                            }}
-                                        >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
-                                            Landscape Design
-                                        </NavLink>
-                                    </NavItem>
+                                    {/*<NavItem>*/}
+                                    {/*    <NavLink*/}
+                                    {/*        className={iconPills === "5" ? "active" : ""}*/}
+                                    {/*        href="#pablo"*/}
+                                    {/*        onClick={(e) => {*/}
+                                    {/*            e.preventDefault();*/}
+                                    {/*            setIconPills("5");*/}
+                                    {/*        }}*/}
+                                    {/*    >*/}
+                                    {/*        <i className="now-ui-icons ui-2_settings-90"></i>*/}
+                                    {/*        Landscape Design*/}
+                                    {/*    </NavLink>*/}
+                                    {/*</NavItem>*/}
                                     <NavItem>
                                         <NavLink
                                             className={iconPills === "6" ? "active" : ""}
