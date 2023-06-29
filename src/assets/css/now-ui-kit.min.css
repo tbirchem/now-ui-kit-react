@@ -7178,5 +7178,6 @@ td.rdtYear:hover {
 @media screen and (max-width: 768px) {
   .NavbarBrand {
     font-size: 12px!important;
+    h2:12px!important;
   }
 }
