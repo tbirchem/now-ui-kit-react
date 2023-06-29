@@ -15,9 +15,9 @@ document.head.appendChild(styleLink);
 
 // core components
 
-const SERVICE_ID = "service_aeref4w";
-const TEMPLATE_ID = "template_kddcgzh";
-const USER_ID = "Q2iqInByuTYbBsj5U";
+const SERVICE_ID = "s5ervice_mpj9n9g";
+const TEMPLATE_ID = "template_vtbma8";
+const USER_ID = "i7jwXRdawhnNqLmgu";
 
 const SignUp = () => {
 
