@@ -3797,6 +3797,7 @@ body {
 .nav-tabs > .nav-item > .nav-link:hover {
   background-color: rgba(0, 0, 0, 0);
 }
+/*Change Pill Icon colors Here*/
 .nav-tabs > .nav-item > .nav-link.active {
   background-color: #444;
   border-radius: 30px;

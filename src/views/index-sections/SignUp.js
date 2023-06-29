@@ -101,7 +101,8 @@ const SignUp = () => {
                                 id='form-textarea-control-opinion'
                                 control={TextArea}
                                 name='user_message'
-                                placeholder='Message…'
+                                required
+                                placeholder='Tell us about your project ideas…'
                             />
                             <CardFooter className="text-center">
                                 <Button className="btn-round btn-lg" type='submit' color="warning">SUBMIT</Button>

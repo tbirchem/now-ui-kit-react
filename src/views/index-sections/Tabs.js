@@ -36,7 +36,6 @@ function Tabs() {
                                                 setIconPills("1");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Landscape Lighting
                                         </NavLink>
                                     </NavItem>
@@ -49,7 +48,6 @@ function Tabs() {
                                                 setIconPills("2");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Fire Features
                                         </NavLink>
                                     </NavItem>
@@ -62,7 +60,6 @@ function Tabs() {
                                                 setIconPills("3");
                                             }}
                                         >
-                                            <i className="now-ui-icons shopping_shop"></i>
                                             Outdoor Structures & Kitchens
                                         </NavLink>
                                     </NavItem>
@@ -75,7 +72,6 @@ function Tabs() {
                                                 setIconPills("4");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Retaining Walls & Fencing
                                         </NavLink>
                                     </NavItem>
@@ -101,7 +97,6 @@ function Tabs() {
                                                 setIconPills("6");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Patio & Walkways
                                         </NavLink>
                                     </NavItem>
@@ -114,7 +109,6 @@ function Tabs() {
                                                 setIconPills("7");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Landscape Installation
                                         </NavLink>
                                     </NavItem>
@@ -127,7 +121,6 @@ function Tabs() {
                                                 setIconPills("8");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Residential
                                         </NavLink>
                                     </NavItem>
@@ -140,7 +133,6 @@ function Tabs() {
                                                 setIconPills("9");
                                             }}
                                         >
-                                            <i className="now-ui-icons ui-2_settings-90"></i>
                                             Water Feature
                                         </NavLink>
                                     </NavItem>
