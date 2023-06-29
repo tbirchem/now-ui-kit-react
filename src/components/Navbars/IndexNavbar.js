@@ -29,9 +29,9 @@ function IndexNavbar() {
                 setCollapseOpen(false);
             }}
         />) : null}
-        <Navbar className={"fixed-top " + navbarColor} expand="lg" color="success">
+        <Navbar className={"fixed-top " + navbarColor}  expand="lg" color="success" >
             <Container>
-                <div className="navbar-translate h5 font-italic">
+                <div className="navbar-translate h2 font-italic font-weight-bold justify-content-center">
                     <NavbarBrand
                         id="navbar-brand"
                         href="#pablo"

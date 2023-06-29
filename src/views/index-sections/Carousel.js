@@ -17,6 +17,20 @@ const items = [{
     src: require("assets/img/feature4.jpg"), altText: "Landscape Design", caption: "Landscape Design"
 }, {
     src: require("assets/img/feature5.jpg"), altText: "Water Feature", caption: "Water Feature"
+}, {
+    src: require("assets/img/suncrest_waterFeature.jpeg"), altText: "Water Feature 2", caption: "Water Feature"
+}, {
+    src: require("assets/img/landscape_design_3.jpeg"), altText: "Landscape Design 2", caption: "Landscape Design"
+},
+//     {
+//     src: require("assets/img/waterFeature_5.jpeg"), altText: "Water Feature 3", caption: "Water Feature"
+// },
+    {
+    src: require("assets/img/fire_feature2.jpeg"), altText: "Fire Feature 2", caption: "Fire Feature"
+}, {
+    src: require("assets/img/waterFeature 6.jpeg"), altText: "Water Feature 2", caption: "Water Feature"
+}, {
+        src: require("assets/img/water_feature 3.jpeg"), altText: "Water Feature 2", caption: "Water Feature"
 }];
 
 function CarouselSection() {
