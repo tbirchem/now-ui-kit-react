@@ -15,7 +15,7 @@ document.head.appendChild(styleLink);
 
 // core components
 
-const SERVICE_ID = "s5ervice_mpj9n9g";
+const SERVICE_ID = "service_mpj9n9g";
 const TEMPLATE_ID = "template_vtbma8";
 const USER_ID = "i7jwXRdawhnNqLmgu";
 
