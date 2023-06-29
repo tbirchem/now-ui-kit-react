@@ -17,7 +17,7 @@ document.head.appendChild(styleLink);
 
 const SERVICE_ID = "service_mpj9n9g";
 const TEMPLATE_ID = "template_vtbma8";
-const USER_ID = "i7jwXRdawhnNqLmgu";
+const USER_ID = "i7JwXRdawhnNqLmgu";
 
 const SignUp = () => {
 
