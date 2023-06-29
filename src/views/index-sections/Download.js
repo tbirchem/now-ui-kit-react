@@ -21,7 +21,7 @@ function Download() {
                     <Col className="text-center" lg="8" md="12">
                         <Button
                             className="btn-neutral btn-icon btn-round"
-                            color="Instagram"
+                            color="black"
                             href="https://instagram.com/birchem_24"
                             id="tooltip86114138"
                             size="lg"
@@ -45,7 +45,7 @@ function Download() {
                         </UncontrolledTooltip>
                         <Button
                             className="btn-neutral btn-icon btn-round"
-                            color="linkedin"
+                            color="black"
                             href="https://www.linkedin.com/in/shawn-ramirez-5b9b3213"
                             id="tooltip647117716"
                             size="lg"
