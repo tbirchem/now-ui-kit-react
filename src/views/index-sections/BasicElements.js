@@ -37,13 +37,13 @@ function BasicElements() {
                     thorough management throughout the entire project.
                     <br/>
                     <br/>
-                    Suncrest Landscape & Design is based out of Camas, Washington, serving the greater Portland, OR
-                    metro area. We strive to support local business in the PNW region, which is why all products are
-                    purchased locally.
+                    Suncrest Landscape & Design is based out of Camas, Washington, serving the greater Greater Clark County area.
+                    We strive to support local business in the PNW region, which is why all products are purchased locally.
                     <br/>
                     <br/>
-                    If your perfect outdoor living space is a balance of the finest product and the best value for your
-                    property, look no further than Suncrest Landscape & Design
+                    If your perfect outdoor living space is a balance of the finest
+                    product and the best value for your property, look no further
+                    than Suncrest Landscape & Design
                 </p>
             </Container>
         </div>

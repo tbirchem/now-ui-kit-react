@@ -20,7 +20,7 @@ function Footer() {
                 </ul>
             </nav>
             <div className="copyright" id="copyright">
-                CONTACT US: TAYLOR.BIRCHEM@ICLOUD.COM
+                CONTACT US: SUNCREST@SUNCRESTLANDSCAPE.COM
             </div>
             <br/>
             <br/>
