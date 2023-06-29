@@ -218,22 +218,22 @@ function Tabs() {
                                                 src={require("assets/img/Retainingwallsandfencing.jpg")}
                                             /></div>
                                     </TabPane>
-                                    <TabPane tabId="iconPills5">
-                                        <p>
-                                            Here at Suncrest, we envision and create customized plans that transform your
-                                            outdoor space into a captivating haven. We carefully consider the unique characteristics of your property, such as topography,
-                                            existing features, and your preferences, to craft designs that reflect your individual style and enhance the natural beauty of
-                                            the surroundings. With an eye for detail and a deep understanding of plant selection, hardscape elements, and outdoor living spaces,
-                                            we create designs that evoke a sense of tranquility and inspire outdoor enjoyment.
-                                        </p>
-                                        <br/>
-                                        <br/>
-                                        <div className="hero-images-container-2">
-                                            <img
-                                                alt="..."
-                                                src={require("assets/img/landscapeanddesign.jpg")}
-                                            /></div>
-                                    </TabPane>
+                                    {/*<TabPane tabId="iconPills5">*/}
+                                    {/*    <p>*/}
+                                    {/*        Here at Suncrest, we envision and create customized plans that transform your*/}
+                                    {/*        outdoor space into a captivating haven. We carefully consider the unique characteristics of your property, such as topography,*/}
+                                    {/*        existing features, and your preferences, to craft designs that reflect your individual style and enhance the natural beauty of*/}
+                                    {/*        the surroundings. With an eye for detail and a deep understanding of plant selection, hardscape elements, and outdoor living spaces,*/}
+                                    {/*        we create designs that evoke a sense of tranquility and inspire outdoor enjoyment.*/}
+                                    {/*    </p>*/}
+                                    {/*    <br/>*/}
+                                    {/*    <br/>*/}
+                                    {/*    <div className="hero-images-container-2">*/}
+                                    {/*        <img*/}
+                                    {/*            alt="..."*/}
+                                    {/*            src={require("assets/img/landscapeanddesign.jpg")}*/}
+                                    {/*        /></div>*/}
+                                    {/*</TabPane>*/}
                                     <TabPane tabId="iconPills6">
                                         <p>
                                             Whether you desire a cozy, intimate patio or a
