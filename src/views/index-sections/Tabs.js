@@ -170,7 +170,7 @@ function Tabs() {
                                     </TabPane>
                                     <TabPane tabId="iconPills2">
                                         <p>
-                                            At Suncrest, we specialize in creating captivating outdoor spaces with our exceptional fire feature services.
+                                            At Suncrest, we specialize in creating captivating outdoor spaces with our exceptional fire features.
                                             Our skilled team designs and installs custom fire pits, fireplaces, and fire bowls that become mesmerizing focal
                                             points and cozy gathering spots in your landscape. With a commitment to safety, quality, and craftsmanship,
                                             we utilize premium materials and adhere to industry standards to ensure the durability and reliability of our fire features.
