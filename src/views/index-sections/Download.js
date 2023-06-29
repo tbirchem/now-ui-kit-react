@@ -18,6 +18,18 @@ function Download() {
                     <Col className="text-center" lg="8" md="12">
                         <h3>Follow Us!</h3>
                     </Col>
+                    <Col className="text-center" lg="8" md="12">
+                        <Button
+                            className="btn-neutral btn-icon btn-round"
+                            color="Instagram"
+                            href="https://instagram.com/birchem_24"
+                            id="tooltip86114138"
+                            size="lg"
+                            target="_blank"
+                        >
+                        </Button>
+                        <UncontrolledTooltip delay={0} target="tooltip86114138">
+                        </UncontrolledTooltip>
                         <Button
                             className="btn-neutral btn-icon btn-round"
                             color="facebook"
@@ -31,6 +43,18 @@ function Download() {
                         <UncontrolledTooltip delay={0} target="tooltip735272548">
                             Follow us on Facebook!
                         </UncontrolledTooltip>
+                        <Button
+                            className="btn-neutral btn-icon btn-round"
+                            color="linkedin"
+                            href="https://www.linkedin.com/in/shawn-ramirez-5b9b3213"
+                            id="tooltip647117716"
+                            size="lg"
+                            target="_blank"
+                        >
+                        </Button>
+                        <UncontrolledTooltip delay={0} target="tooltip647117716">
+                        </UncontrolledTooltip>
+                    </Col>
                 </Row>
             </Container>
         </div>
