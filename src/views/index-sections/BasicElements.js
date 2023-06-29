@@ -26,9 +26,9 @@ function BasicElements() {
                 <br/>
                 <br/>
                 <p className="font-italic ">
-                    Suncrest Landscape & Design is a family owned and operated company. Through 20+ years of pace
-                    setting and achievements, Suncrest has established itself as the area leader in landscape design,
-                    landscaping, and wall and patio contracting.
+                    Suncrest Landscape & Design is a family owned and operated company. Through 25+ years of pace
+                    setting and achievements, Suncrest has established itself as the area leader in design,
+                    landscaping, wall and patio contracting.
                     <br/>
                     <br/>
                     Our goal is more than a perfect outdoor living space. It’s about making the whole experience always
