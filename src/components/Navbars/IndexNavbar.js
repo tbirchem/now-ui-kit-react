@@ -29,9 +29,11 @@ function IndexNavbar() {
                 setCollapseOpen(false);
             }}
         />) : null}
-        <Navbar className={"fixed-top " + navbarColor}  expand="lg" color="success" >
+        <Navbar className={"fixed-top " + navbarColor}  expand="lg" color="success">
             <Container>
-                <div className="navbar-translate h3 font-italic font-weight-bold">
+                <div className="navbar-translate h3 font-italic font-weight-bold" style={{
+                    paddingTop: '10px',
+                }}>
                     <NavbarBrand
                         id="navbar-brand"
                         href="#pablo"
