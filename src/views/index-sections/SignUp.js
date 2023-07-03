@@ -98,6 +98,15 @@ const SignUp = () => {
                             />
                             <Form.Field
                                 className="text-center card-body"
+                                control={Input}
+                                name='user_phone'
+                                placeholder='Phone Number…'
+                                required
+                                icon='phone'
+                                iconPosition='left'
+                            />
+                            <Form.Field
+                                className="text-center card-body"
                                 id='form-textarea-control-opinion'
                                 control={TextArea}
                                 name='user_message'
