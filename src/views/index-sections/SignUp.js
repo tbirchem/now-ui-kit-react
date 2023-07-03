@@ -59,6 +59,16 @@ const SignUp = () => {
                             </CardHeader>
                             <Form.Field
                                 className="text-center card-body"
+                                id='form-input-control-last-name'
+                                control={Input}
+                                name='user_name'
+                                placeholder='First, Last…'
+                                required
+                                icon='user circle'
+                                iconPosition='left'
+                            />
+                            <Form.Field
+                                className="text-center card-body"
                                 id='form-input-control-email'
                                 control={Input}
                                 text='Email'
@@ -70,19 +80,18 @@ const SignUp = () => {
                             />
                             <Form.Field
                                 className="text-center card-body"
-                                id='form-input-control-last-name'
                                 control={Input}
-                                name='user_name'
-                                placeholder='First, Last…'
+                                name='user_phone'
+                                placeholder='Phone Number…'
                                 required
-                                icon='user circle'
+                                icon='phone'
                                 iconPosition='left'
                             />
                             <Form.Field
                                 className="text-center card-body"
                                 control={Input}
                                 name='user_location'
-                                placeholder='City, State…'
+                                placeholder='Address…'
                                 required
                                 icon='location arrow'
                                 iconPosition='left'
@@ -94,15 +103,6 @@ const SignUp = () => {
                                 placeholder='Budget…'
                                 required
                                 icon='dollar sign'
-                                iconPosition='left'
-                            />
-                            <Form.Field
-                                className="text-center card-body"
-                                control={Input}
-                                name='user_phone'
-                                placeholder='Phone Number…'
-                                required
-                                icon='phone'
                                 iconPosition='left'
                             />
                             <Form.Field
