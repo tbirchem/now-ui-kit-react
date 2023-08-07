@@ -104,7 +104,7 @@ function IndexNavbar() {
                                 <p>Gallery</p>
                             </NavLink>
                         </NavItem>
-                        <NavItem className="h5">
+                        <NavItem className="h5 btn-warning2 shadow">
                             <NavLink
                                 href="#pablo"
                                 onClick={(e) => {
@@ -113,7 +113,7 @@ function IndexNavbar() {
                                         .getElementById("getaquote")
                                         .scrollIntoView();
                                 }}>
-                                <p>Get Connected</p>
+                                <p className="font-weight-bolder">Get Connected</p>
                             </NavLink>
                         </NavItem>
                         <NavItem>
@@ -131,7 +131,7 @@ function IndexNavbar() {
                         </NavItem>
                         <NavItem>
                             <NavLink
-                                href="https://www.instagram.com/suncrestlandscapingwa/"
+                                href="https://www.instagram.com/suncrest.landscaping/"
                                 target="_blank"
                                 id="instagram-tooltip"
                             >
