@@ -108,7 +108,7 @@
 
 .navigation-example {
   background-position: center center;
-  background-size: cover;
+  background-size: auto;
   margin-top: 0;
   min-height: 740px;
   height: 100%;

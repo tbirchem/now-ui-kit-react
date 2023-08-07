@@ -36,13 +36,7 @@ function IndexNavbar() {
                 }}>
                     <NavbarBrand
                         id="navbar-brand"
-                        href="#pablo"
-                        onClick={(e) => {
-                            e.preventDefault();
-                            document
-                                .getElementById("header")
-                                .scrollIntoView();
-                        }}
+                        href="/index"
                     >
                         Suncrest Landscaping
                     </NavbarBrand>
@@ -68,13 +62,8 @@ function IndexNavbar() {
                     <Nav navbar>
                         <NavItem className="h5">
                             <NavLink
-                                href="#pablo"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    document
-                                        .getElementById("basic-elements")
-                                        .scrollIntoView();
-                                }}>
+                                href="/landing-page"
+                                target="_blank">
                                 <p>About</p>
                             </NavLink>
                         </NavItem>
@@ -85,7 +74,9 @@ function IndexNavbar() {
                                     e.preventDefault();
                                     document
                                         .getElementById("services")
-                                        .scrollIntoView();
+                                        .scrollIntoView({
+                                            inline: 'start', block: 'start', behavior: 'smooth'
+                                        });
                                 }}>
                                 <p>Services</p>
                             </NavLink>
@@ -131,7 +122,7 @@ function IndexNavbar() {
                         </NavItem>
                         <NavItem>
                             <NavLink
-                                href="https://www.instagram.com/suncrestlandscapingwa/"
+                                href="/landing-page"
                                 target="_blank"
                                 id="instagram-tooltip"
                             >
