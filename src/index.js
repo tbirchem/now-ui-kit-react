@@ -26,15 +26,15 @@ import "assets/demo/demo.css?v=1.5.0";
 import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
 // pages for this kit
 import Index from "views/Index.js";
+import About from "views/About.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<BrowserRouter>
     <Switch>
-        <Switch>
-            <Route path="/index" render={(props) => <Index {...props} />}/>
-            <Redirect to="/index"/>
-            <Redirect from="/" to="/index"/>
-        </Switch>
+            <Redirect path="/index" render={(props) => <Index {...props} />} to={""}/>
+            <Route path="/about" render={(props) => <About {...props} />}/>
+            <Route path="/" render={(props) => <Index {...props} />}/>
+            <Route path="" render={(props) => <Index {...props} />}/>
     </Switch>
 </BrowserRouter>);

@@ -4,6 +4,7 @@ import React from "react";
 import {
     Collapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, UncontrolledTooltip,
 } from "reactstrap";
+import {Link} from "react-router-dom";
 
 function IndexNavbar() {
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -36,15 +37,9 @@ function IndexNavbar() {
                 }}>
                     <NavbarBrand
                         id="navbar-brand"
-                        href="#pablo"
-                        onClick={(e) => {
-                            e.preventDefault();
-                            document
-                                .getElementById("header")
-                                .scrollIntoView();
-                        }}
-                    >
-                        Suncrest Landscaping
+                        href="/index"
+                        >
+                        <h1 className="text-xl-center"> Suncrest Landscaping </h1>
                     </NavbarBrand>
                     <button
                         className="navbar-toggler navbar-toggler"
@@ -68,19 +63,14 @@ function IndexNavbar() {
                     <Nav navbar>
                         <NavItem className="h5">
                             <NavLink
-                                href="#pablo"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    document
-                                        .getElementById("basic-elements")
-                                        .scrollIntoView();
-                                }}>
+                                href ="/about"
+                            >
                                 <p>About</p>
                             </NavLink>
                         </NavItem>
                         <NavItem className="h5">
                             <NavLink
-                                href="#pablo"
+                                href = "/index"
                                 onClick={(e) => {
                                     e.preventDefault();
                                     document
@@ -92,7 +82,7 @@ function IndexNavbar() {
                         </NavItem>
                         <NavItem className="h5">
                             <NavLink
-                                href="#pablo"
+                                href="/index"
                                 onClick={(e) => {
                                     e.preventDefault();
                                     document
@@ -104,9 +94,8 @@ function IndexNavbar() {
                                 <p>Gallery</p>
                             </NavLink>
                         </NavItem>
-                        <NavItem className="h5 btn-warning2 shadow">
+                        <NavItem className="h5">
                             <NavLink
-                                href="#pablo"
                                 onClick={(e) => {
                                     e.preventDefault();
                                     document

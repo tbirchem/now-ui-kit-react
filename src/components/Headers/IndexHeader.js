@@ -27,7 +27,7 @@ function IndexHeader() {
             <div
                 className="page-header-image"
                 style={{
-                    backgroundImage: "url(" + require("../../../src/assets/img/jan-canty-KcQuXaHCSPE-unsplash.jpg") + ")"
+                    backgroundImage: "url(" + require("../../../src/assets/img/lawninsttallation.jpg") + ")"
                 }}
                 ref={pageHeader}
             />
@@ -38,21 +38,22 @@ function IndexHeader() {
                     {/*    className="n-logo"*/}
                     {/*    src={require("assets/img/sunset.png")}*/}
                     {/*/>*/}
-                    <h1>Suncrest Landscaping</h1>
+                    {/*<h1 className= "border-success">Suncrest Landscaping</h1>*/}
                     <br/>
-                    <h3>Exceeding Expectations for 25+ years - 4.8 Stars on Google </h3>
+                    <h1 className= "card-title">Exceeding Expectations for 25+ years - 4.8 Stars on Google </h1>
                     <hr
                         style={{
                             background: 'white', color: 'white', borderColor: 'white', height: '0.5px',
                         }}/>
                     <a
+                        className= "text-white"
                         href="#pablo"
                         onClick={(e) => {
                             e.preventDefault();
                             document
                                 .getElementById("getaquote")
                                 .scrollIntoView();
-                        }}><h3 className="text-danger">GET A FREE QUOTE TODAY!</h3></a>
+                        }}><h1>GET A FREE QUOTE TODAY!</h1></a>
                 </div>
             </Container>
         </div>
