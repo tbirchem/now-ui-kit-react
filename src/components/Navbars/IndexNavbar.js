@@ -4,7 +4,6 @@ import React from "react";
 import {
     Collapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, UncontrolledTooltip,
 } from "reactstrap";
-import {Link} from "react-router-dom";
 
 function IndexNavbar() {
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");

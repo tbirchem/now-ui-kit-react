@@ -16,8 +16,8 @@ import Download from "./index-sections/Download";
 
 
 function About() {
-    const [firstFocus, setFirstFocus] = React.useState(false);
-    const [lastFocus, setLastFocus] = React.useState(false);
+    // const [firstFocus, setFirstFocus] = React.useState(false);
+    // const [lastFocus, setLastFocus] = React.useState(false);
     React.useEffect(() => {
         document.body.classList.add("landing-page");
         document.body.classList.add("sidebar-collapse");
