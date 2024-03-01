@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -32,9 +32,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<BrowserRouter>
     <Switch>
-        <Route path="/index" render={(props) => <Index {...props} />} />
+        <Route path="index" render={(props) => <Index {...props} />} />
         <Route path="/about" render={(props) => <About {...props} />} />
-        {/*<Route path="/" render={(props) => <Index {...props} />}/>*/}
-        {/*<Route path="" render={(props) => <Index {...props} />}/>*/}
+        <Route path="/" render={(props) => <Index {...props} />}/>}
+        <Route path="" render={(props) => <Index {...props} />}/>}
     </Switch>
 </BrowserRouter>);
