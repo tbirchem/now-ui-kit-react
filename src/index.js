@@ -32,7 +32,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<BrowserRouter>
     <Switch>
-        <Route path="/index" component={About}/>
+        <Route path="/about" component={About}/>
         <Route path="" component={Index} />}
     </Switch>
 </BrowserRouter>);
