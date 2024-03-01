@@ -13,7 +13,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 import BasicElements from "./index-sections/BasicElements.js";
 import Tabs from "./index-sections/Tabs.js";
-import Carousel from "./index-sections/Carousel.js";
+// import Carousel from "./index-sections/Carousel.js";
 import SignUp from "./index-sections/SignUp.js";
 import Download from "./index-sections/Download.js";
 
