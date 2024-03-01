@@ -25,7 +25,7 @@ function About() {
         window.scrollTo(0, 0);
         document.body.scrollTop = 0;
         return function cleanup() {
-            document.body.classList.remove("about-page");
+            document.body.classList.remove("index-page");
             document.body.classList.remove("sidebar-collapse");
         };
     });
