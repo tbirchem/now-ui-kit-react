@@ -32,9 +32,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<BrowserRouter>
     <Switch>
+            {/*<Route basename="/index" render={(props) => <Index {...props} />} />*/}
+            <Route path="/about" render={(props) => <About {...props} />} />
             <Route path="/index" render={(props) => <Index {...props} />} />
-            <Route basename="/about" render={(props) => <About {...props} />} />
-            <Route path="/" render={(props) => <Index {...props} />}/>
-            <Route path="" render={(props) => <Index {...props} />}/>
+            {/*<Route path="/" render={(props) => <Index {...props} />}/>*/}
+            {/*<Route path="" render={(props) => <Index {...props} />}/>*/}
     </Switch>
 </BrowserRouter>);
