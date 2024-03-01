@@ -69,7 +69,7 @@ function IndexNavbar() {
                         </NavItem>
                         <NavItem className="h5">
                             <NavLink
-                                href = ""
+                                href = "/"
                                 onClick={(e) => {
                                     e.preventDefault();
                                     document
