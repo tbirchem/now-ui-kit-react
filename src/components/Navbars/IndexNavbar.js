@@ -62,7 +62,7 @@ function IndexNavbar() {
                     <Nav navbar>
                         <NavItem className="h5">
                             <NavLink
-                                href ="/about"
+                                href = "/about"
                             >
                                 <p>About</p>
                             </NavLink>

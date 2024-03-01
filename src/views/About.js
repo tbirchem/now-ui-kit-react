@@ -34,7 +34,7 @@ function About() {
             <IndexNavbar/>
             <div className="wrapper">
                 <LandingPageHeader/>
-                <div className="section section-about-us">
+                <div className="main">
                     <Container>
                         <Row>
                             <Col className="ml-auto mr-auto text-center" md="8">
