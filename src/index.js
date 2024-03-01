@@ -34,6 +34,11 @@ root.render(<BrowserRouter>
     <Switch>
         <Route path="/index" render={(props) => <About {...props} />} />
         <Route path="" render={(props) => <Index {...props} />}/>}
-        <Route path="/" render={(props) => <About {...props} />}/>}
     </Switch>
 </BrowserRouter>);
+
+// root.render(<BrowserRouter>
+//     <Switch>
+//         <Route path="*" render={(props) => <About {...props} />} />
+//     </Switch>
+// </BrowserRouter>);
