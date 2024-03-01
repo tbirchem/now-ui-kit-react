@@ -36,7 +36,7 @@ function IndexNavbar() {
                 }}>
                     <NavbarBrand
                         id="navbar-brand"
-                        href="/index"
+                        href="/"
                         >
                         <h1 className="text-xl-center"> Suncrest Landscaping </h1>
                     </NavbarBrand>
@@ -62,14 +62,14 @@ function IndexNavbar() {
                     <Nav navbar>
                         <NavItem className="h5">
                             <NavLink
-                                href = "/about"
+                                href = "/index"
                             >
                                 <p>About</p>
                             </NavLink>
                         </NavItem>
                         <NavItem className="h5">
                             <NavLink
-                                href = "/index"
+                                href = ""
                                 onClick={(e) => {
                                     e.preventDefault();
                                     document
@@ -81,7 +81,7 @@ function IndexNavbar() {
                         </NavItem>
                         <NavItem className="h5">
                             <NavLink
-                                href="/index"
+                                href=""
                                 onClick={(e) => {
                                     e.preventDefault();
                                     document
